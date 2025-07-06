@@ -1,70 +1,132 @@
-# Getting Started with Create React App
+# 🏍️ Halo Ride – Augmented Reality Smart Helmet Companion App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Halo Ride** is a cutting-edge Human-Computer Interaction (HCI) project that introduces an **AR-powered smart helmet** designed to address the everyday challenges of motorcycle riders — especially **delivery drivers**, **commuters**, and **recreational bikers** in urban environments like **Dubai**, yet would like to further expand it to a wider range of environments.
 
-## Available Scripts
+This repository contains the **mobile application prototype** and design documentation that supports the smart helmet system, enabling users to interact with features such as:
+- AR navigation control
+- Music and podcast streaming
+- Hazard alert notifications
+- Ventilation monitoring
+- Ride analytics and summaries
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Project Objective
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Traditional helmets lack the smart capabilities needed to reduce accident risk and improve rider comfort. Halo Ride fills this gap by integrating:
+- 🧠 **Heads-Up AR Navigation**
+- 💨 **360° Smart Ventilation**
+- 🦻 **Bone Conduction Audio**
+- ⚠️ **Real-Time Hazard Alerts**
+- 🔋 **Dual Power System (Solar + LiFePO4 Battery)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+All designed to reduce distractions, maximize comfort, and ensure safer, hands-free riding for long durations.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👩‍💻 Features of the Halo Ride Ecosystem
 
-### `npm run build`
+### 🚨 AR & Voice-Controlled Navigation
+- Turn-by-turn navigation via transparent OLED display
+- Voice assistant for hands-free operation
+- Real-time hazard warnings and traffic rerouting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌡️ 360° Ventilation + Passive Cooling
+- Smart airflow channels to prevent overheating
+- Phase-change materials for natural cooling
+- Breathable, antibacterial inner lining for hygiene and comfort
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎧 Audio & Alerts
+- Dual bone-conduction speakers for ambient hearing
+- Hands-free communication and media playback
+- Haptic feedback for deaf riders or visual impairments
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔋 Dual Power Architecture
+- Solar panels + LiFePO4 removable battery
+- 10–12 hour operation time
+- USB-C fast charging and smart power management
 
-### `npm run eject`
+### 📱 Companion Mobile App
+- Route control and ride summaries
+- Music and podcast integration
+- Settings for display, audio, and temperature
+- Safety analytics and helmet diagnostics
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📊 User Research & Design Process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We conducted **surveys, interviews, and competitor analysis** targeting:
+- Delivery drivers (Careem, Talabat, etc.)
+- University students
+- Recreational riders
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Key insights:
+- 80% found mobile navigation distracting while riding
+- 75% experienced severe heat discomfort
+- Riders demanded **affordable**, **lightweight**, and **long-battery** helmet solutions
+---
 
-## Learn More
+## 🔧 Prototyping Process
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We created 3 working prototypes based on user testing feedback:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Version | Highlights |
+|--------|------------|
+| Prototype 1 | Initial sketch with AR visor, fan system, and audio module |
+| Prototype 2 | Improved airflow, repositioned components, modular battery |
+| **Prototype 3** | Solar-powered helmet with smart battery, 360 ventilation, final UI |
 
-### Code Splitting
+Final prototype feedback was overwhelmingly positive — especially for **ergonomics**, **visual clarity**, and **comfort** during extended use.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 👥 Personas & Scenarios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Our helmet was designed for 3 distinct user personas:
 
-### Making a Progressive Web App
+| Rider     | Needs |
+|-----------|-------|
+|Business commuter | Hands-free GPS, music, and comfort in heat |
+|Delivery driver | Safer navigation, hazard alerts, 5-star delivery rating |
+|University student | Safer rides post-accident, scenic route suggestions |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📱 UI Pages (Mobile App Prototype)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Home Page** – Overview of current ride
+- **Maps Page** – Route selection and visor settings
+- **Music & Podcast** – Playback control with voice assistant
+- **Safety Alerts** – Live hazard notifications
+- **User Analytics** – Ride history, helmet diagnostics
+- **Settings Page** – Language, audio, ventilation preferences
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📐 Tech Stack
 
-### `npm run build` fails to minify
+| Layer       | Technology |
+|-------------|------------|
+| UI/UX       | Figma      |
+| Design Docs | MS Word, PDF |
+| Prototyping | Sketching, wireframes |
+| Research    | Google Forms, Interviews |
+| Documentation | LaTeX + Annotated PDFs |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🚀 Future Development
+
+- Convert app to Flutter for real deployment
+- Integrate helmet-device Bluetooth communication
+- Build custom APIs for ride analytics
+- Conduct usability testing with external bikers
+
+---
+
+## 📄 License
+
+This project is part of an academic submission for HCI by my university and is currently not licensed for commercial use.
+
+
