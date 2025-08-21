@@ -1,5 +1,7 @@
 # 🏍️ Halo Ride – Augmented Reality Smart Helmet Companion App
 
+live demo : https://hebarasmy.github.io/HaloRide-mobile-app/dashboard
+
 **Halo Ride** is a cutting-edge Human-Computer Interaction (HCI) project that introduces an **AR-powered smart helmet** designed to address the everyday challenges of motorcycle riders — especially **delivery drivers**, **commuters**, and **recreational bikers** in urban environments like **Dubai**, yet would like to further expand it to a wider range of environments.
 
 This repository contains the **mobile application prototype** and design documentation that supports the smart helmet system, enabling users to interact with features such as:
