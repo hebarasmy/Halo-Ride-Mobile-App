@@ -10,7 +10,7 @@ function App() {
   console.log("App rendering with routes")
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
@@ -24,5 +24,3 @@ function App() {
 }
 
 export default App
-
-
