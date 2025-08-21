@@ -1,8 +1,8 @@
 {
-  "name": "my-mobile-app",
+  "name": "HaloRide-mobile-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hebarasmy.github.io/My-Mobile-App",
+  "homepage": "https://hebarasmy.github.io/HaloRide-mobile-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
